@@ -1,0 +1,36 @@
+|teacher	
+giáo viên
+|doctor		
+bác sĩ
+|singer		
+ca sĩ
+|nurse		
+y tá
+|chef		
+đầu bếp
+|police	
+cảnh sát
+|pilot		
+phi công
+|artist		
+họa sĩ 	
+|businessman	
+doanh nhân
+|lawyer		 
+luật sư
+|fireman	
+lính cứu hỏa
+|barber		
+thợ cắt tóc
+|painter	
+thợ sơn
+|waiter		
+bồi bàn
+|farmer		
+nông dân
+|photographer	
+nhiếp ảnh gia
+|reporter	
+phóng viên
+|scientist	
+nhà khoa học

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="600.0" prefWidth="850.0" styleClass="anchor-pane" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.user_interface">
+   <children>
+      <Button fx:id="search" layoutX="-1.0" layoutY="116.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="88.0" text="Tra cứu" />
+      <Button fx:id="test" layoutY="158.0" mnemonicParsing="false" text="Kiểm tra" />
+      <Button fx:id="quit" layoutX="-1.0" layoutY="548.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="84.0" text="Quit" />
+      <AnchorPane fx:id="container" layoutX="131.0" layoutY="43.0" prefHeight="580.0" prefWidth="730.0" styleClass="container" />
+      <Button fx:id="logout" layoutX="-1.0" layoutY="509.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="84.0" text="LogOut" />
+   </children>
+</AnchorPane>

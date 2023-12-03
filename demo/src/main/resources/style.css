@@ -1,0 +1,239 @@
+/* Định dạng AnchorPane */
+.anchor-pane {
+    -fx-background-color: #fff1f4; /* Màu nền */
+    -fx-padding: 10px; /* Khoảng cách viền */
+    -fx-border-color: #f5297b;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-border-width: 3;
+}
+
+/* Định dạng TextField */
+.text-field-boder{
+    -fx-border-radius: 2;
+    -fx-background-radius: 2;
+    -fx-border-color: #3498db;
+    -fx-border-width: 3;
+    -fx-background-color: #ffffff; /* Màu nền */
+    -fx-font-size: 14px; /* Kích thước font chữ */
+    -fx-padding: 5px; /* Khoảng cách viền */
+    -fx-prompt-text-fill: #afaaaa; /* Màu chữ gợi ý */
+}
+
+.container {
+    -fx-background-color: #ffffff; /* Màu nền */
+    -fx-padding: 10px; /* Khoảng cách viền */
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-border-width: 3;
+}
+/* Định dạng TextArea */
+.text-area-border {
+    -fx-border-radius: 2;
+    -fx-background-radius: 2;
+    -fx-border-width: 3;
+    -fx-border-color: #3498db;
+    -fx-background-color: #ffffff; /* Màu nền */
+    -fx-font-size: 14px; /* Kích thước font chữ */
+    -fx-padding: 5px; /* Khoảng cách viền */
+}
+
+/* Định dạng Button */
+.button {
+    -fx-background-color: #3498db; /* Màu nền */
+    -fx-text-fill: white; /* Màu chữ */
+    -fx-font-size: 14px; /* Kích thước font chữ */
+    -fx-padding: 8px 16px; /* Khoảng cách viền (theo chiều ngang và dọc) */
+    -fx-border-radius: 5px; /* Bo tròn viền */
+}
+
+.button:hover {
+    -fx-background-color: #f5297b;
+    -fx-text-fill: #ffffff;
+}
+
+/* Định dạng Pane */
+.pane {
+    -fx-background-color: transparent; /* Nền trong suốt */
+}
+/* Định dạng in đậm cho font chữ */
+.bold-text {
+    -fx-font-weight: bold; /* Sử dụng in đậm */
+}
+/* Định dạng ListView */
+.list-view {
+    -fx-background-color: #ffeaea; /* Màu nền */
+    -fx-font-weight: bold; /* Font in đậm */
+    -fx-font-size: 14px; /* Kích thước font chữ */
+    -fx-padding: 5px; /* Khoảng cách viền */
+    -fx-border-width: 3;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-border-color: #3498db;
+}
+
+/* Định dạng mục trong ListView */
+.list-cell {
+    -fx-text-fill: #000000; /* Màu chữ */
+}
+
+/* Định dạng Label */
+.label-styled {
+    -fx-font-size: 12px; /* Kích thước font chữ */
+    -fx-font-weight: bold; /* Font in đậm */
+    -fx-text-fill: #333333; /* Màu chữ */
+    -fx-padding: 5px; /* Khoảng cách viền */
+}
+
+/* Định dạng TableView */
+.table-view {
+    -fx-background-color: linear-gradient(to right, rgba(177, 238, 225, 0.27), rgba(248, 210, 210, 0.33));
+}
+
+/* Tất cả các phần tử sử dụng in đậm cho font chữ */
+.anchor-pane,
+.text-field,
+.container,
+.text-area,
+.button,
+.pane,
+.bold-text,
+.list-view,
+.list-cell,
+.label-styled,
+.table-view,
+.table-view .column-header-background,
+.table-view .cell,
+.table-view .row-cell:odd,
+.table-view .row-cell:even {
+    -fx-font-weight: bold; /* Sử dụng in đậm cho font chữ */
+}
+/* Định dạng ComboBox */
+.combo-box {
+    -fx-font-weight: bold; /* Font in đậm */
+    -fx-font-size: 14px; /* Kích thước font chữ */
+    -fx-padding: 5px; /* Khoảng cách viền */
+    -fx-background-color: #ffffff; /* Màu nền */
+    -fx-border-color: #090808; /* Màu viền */
+    -fx-border-radius: 2;
+    -fx-background-radius: 2;
+}
+
+/* Định dạng danh sách dropdown của ComboBox */
+.combo-box .list-cell {
+    -fx-border-color: #090808;
+    -fx-border-radius: 2;
+    -fx-background-radius: 2;
+    -fx-font-weight: normal; /* Font bình thường */
+    -fx-font-size: 14px; /* Kích thước font chữ */
+    -fx-text-fill: #333333; /* Màu chữ */
+}
+
+.yaya {
+    -fx-background-color: linear-gradient(to right, rgba(177, 238, 225, 0.27), rgba(248, 210, 210, 0.33));
+    -fx-border-radius: 3;
+    -fx-border-width: 3;
+    -fx-background-radius: 3;
+    -fx-border-color: #3498db;
+}
+
+.text-field-no-border {
+    -fx-border-radius: 2;
+    -fx-background-radius: 2;
+    -fx-border-width: 3;
+    -fx-background-color: #ffffff; /* Màu nền */
+    -fx-font-size: 14px; /* Kích thước font chữ */
+    -fx-padding: 5px; /* Khoảng cách viền */
+    -fx-prompt-text-fill: #afaaaa; /* Màu chữ gợi ý */
+}
+
+.text-area-no-border {
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-border-width: 4;
+    -fx-background-color: linear-gradient(to right, rgb(177, 238, 225), rgb(248, 210, 210));
+    -fx-font-size: 14px; /* Kích thước font chữ */
+    -fx-padding: 5px; /* Khoảng cách viền */
+}
+
+.yy {
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-border-width: 4;
+    -fx-border-color: #3498db;
+    -fx-background-color: linear-gradient(to right, rgb(255, 206, 213), rgb(177, 238, 225));
+    -fx-font-size: 14px; /* Kích thước font chữ */
+    -fx-padding: 5px; /* Khoảng cách viền */
+}
+
+.searchText {
+    -fx-background-color: transperent;
+    -fx-font-size: 20; /* Kích thước font chữ */
+}
+
+/* Định dạng mục chưa được chọn */
+.list-view .list-cell {
+    -fx-background-color: rgba(255, 206, 213, 0.66);
+    -fx-background-insets: 0;
+    -fx-border: #ffffff
+}
+
+/* Định dạng mục được chọn */
+.list-view .list-cell:selected {
+    -fx-background-color: rgba(177, 238, 225, 0.84);
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+    -fx-border-color: #ffffff;
+}
+
+
+/* Định dạng thanh cuộn */
+.list-view .scroll-bar {
+    -fx-background-color: #ffffff;
+    -fx-border: #ffffff
+}
+
+/* Định dạng phần nằm trong thanh cuộn */
+.list-view .scroll-bar > .track {
+    -fx-background-color: #ffced5;
+}
+
+/* Định dạng nút cuộn lên */
+.list-view .scroll-bar > .increment-button {
+    -fx-background-color: #f5297b;
+}
+
+/* Định dạng nút cuộn xuống */
+.list-view .scroll-bar > .decrement-button {
+    -fx-background-color: #f5297b;
+}
+
+/* Định dạng thanh cuộn */
+.list-view .scroll-bar > .thumb {
+    -fx-background-color: rgba(245, 41, 123, 0.55);
+}
+
+/* Định dạng khi di chuột qua thanh cuộn */
+.list-view .scroll-bar > .thumb:hover {
+    -fx-background-color: #f5297b;
+}
+
+.table-view.row-cell {
+    -fx-background-color: linear-gradient(to right, rgba(177, 238, 225, 0.27), rgba(248, 210, 210, 0.33));
+    -fx-border-radius: 3;
+    -fx-border-width: 3;
+    -fx-background-radius: 3;
+    -fx-border-color: #3498db;
+}
+
+.score-small {
+    -fx-font-size: 20; /* Kích thước font chữ */
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+}
+
+.score-big {
+    -fx-font-size: 30; /* Kích thước font chữ */
+    -fx-font-weight: bold;
+    -fx-text-fill: #f5297b;
+}

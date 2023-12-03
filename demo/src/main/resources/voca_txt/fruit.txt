@@ -1,0 +1,36 @@
+|orange
+quả cam
+|apple
+quả táo
+|banana
+quả chuối
+|cucumber
+quả dưa chuột
+|pear
+quả lê
+|watermelon
+quả dưa hấu
+|jackfruit
+quả mít
+|mango
+quả xoài
+|mangoteen
+quả măng cụt
+|peach
+quả đào
+|cherry
+quả anh đào
+|lemon
+quả chanh
+|pomelo
+quả bưởi
+|dragonfruit
+quả thanh long
+|coconut
+quả dừa
+|avocado
+quả bơ
+|pineapple
+quả dứa
+|grape
+quả nho

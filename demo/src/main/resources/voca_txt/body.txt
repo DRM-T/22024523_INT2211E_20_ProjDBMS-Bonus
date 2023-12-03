@@ -1,0 +1,36 @@
+|eye
+mắt
+|nose
+mũi
+|head
+đầu
+|mouth
+miệng
+|lip
+môi
+|ear
+tai
+|eyebrow
+lông mày
+|toe
+ngón chân
+|arm
+cánh tay
+|leg
+chân
+|feet
+bàn chân
+|teeth
+răng
+|hair
+tóc
+|neck
+cổ
+|knee
+đầu gối
+|chin 
+cằm
+|tongue
+lưỡi
+|nail 
+móng tay

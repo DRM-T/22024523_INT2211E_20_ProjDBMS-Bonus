@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane fx:id="container" prefHeight="580.0" prefWidth="730.0" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.admin_voca_controller">
+   <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="580.0" prefWidth="730.0">
+         <children>
+            <Pane layoutX="273.0" layoutY="30.0" prefHeight="69.0" prefWidth="452.0" styleClass="yaya">
+               <children>
+                  <TextField fx:id="searchBar" layoutX="52.0" layoutY="10.0" prefHeight="50.0" prefWidth="324.0" promptText="Nhập từ bạn muốn tìm kiếm" styleClass="searchText" stylesheets="@../style.css" />
+               </children>
+            </Pane>
+            <AnchorPane layoutX="4.0" layoutY="311.0" prefHeight="258.0" prefWidth="722.0" styleClass="yaya" stylesheets="@../style.css">
+               <children>
+                  <TextArea fx:id="explain" layoutX="15.0" layoutY="81.0" prefHeight="166.0" prefWidth="428.0" promptText="Nghĩa của từ sẽ hiện ở đây." styleClass="explainText" stylesheets="@../../../../../../../Dictionary/OOP_Dictionary/Tuyet_Chi_Giang/src/main/resources/utils/style.css" />
+                  <Pane layoutX="7.0" layoutY="75.0" prefHeight="3.0" prefWidth="430.0" styleClass="devideBar" />
+                  <TextField fx:id="target" layoutX="12.0" layoutY="14.0" prefHeight="43.0" prefWidth="165.0" promptText="Từ được chọn" styleClass="text-field-no-border" />
+                  <Button fx:id="edit" layoutX="237.0" layoutY="14.0" mnemonicParsing="false" onAction="#editExplain" styleClass="menuButton">
+                     <tooltip>
+                        <Tooltip text="Sửa từ" />
+                     </tooltip>
+                     <graphic>
+                        <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../../../Dictionary/OOP_Dictionary/Tuyet_Chi_Giang/src/main/resources/utils/icons/icon_pen2.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="save" layoutX="358.0" layoutY="83.0" mnemonicParsing="false" onAction="#saveEdit" styleClass="menuButton" stylesheets="@../../../../../../../Dictionary/OOP_Dictionary/Tuyet_Chi_Giang/src/main/resources/utils/style.css">
+                     <graphic>
+                        <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="menuButton">
+                           <image>
+                              <Image url="@../../../../../../../Dictionary/OOP_Dictionary/Tuyet_Chi_Giang/src/main/resources/utils/icons/icon_yes2.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="delete" layoutX="305.0" layoutY="14.0" mnemonicParsing="false" onAction="#deleteWord" styleClass="menuButton">
+                     <tooltip>
+                        <Tooltip text="Xóa từ" />
+                     </tooltip>
+                     <graphic>
+                        <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../../../Dictionary/OOP_Dictionary/Tuyet_Chi_Giang/src/main/resources/utils/icons/icon_xoa6.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <ImageView fx:id="image_demo" fitHeight="50.0" fitWidth="50.0" layoutX="183.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true" />
+                  <Button fx:id="sound" layoutX="374.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleClickSoundBtn" styleClass="menuButton">
+                     <tooltip>
+                        <Tooltip text="Phát âm" />
+                     </tooltip>
+                     <graphic>
+                        <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="menuButton">
+                           <image>
+                              <Image url="@../../../../../../../Dictionary/OOP_Dictionary/Tuyet_Chi_Giang/src/main/resources/utils/icons/icon_loa2.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Pane fx:id="anchor_image" layoutX="471.0" layoutY="50.0" prefHeight="200.0" prefWidth="201.0">
+                     <children>
+                        <Label layoutX="57.0" layoutY="61.0" text="Để ảnh vào thư mục image" />
+                        <TextField fx:id="imageFile" layoutX="56.0" layoutY="82.0" promptText="imageFileName" />
+                        <Button fx:id="saveImage" layoutX="57.0" layoutY="123.0" mnemonicParsing="false" onAction="#handleClickSaveImage" text="Lưu" />
+                        <TextField fx:id="targetImage" layoutX="56.0" layoutY="13.0" prefHeight="43.0" prefWidth="165.0" promptText="Lưu ảnh cho từ ..." styleClass="text-field-no-border" stylesheets="@../style.css" />
+                        <Label fx:id="successSaveImage" layoutX="61.0" layoutY="163.0" text="Lưu thành công" />
+                     </children>
+                  </Pane>
+               </children>
+            </AnchorPane>
+            <ListView fx:id="listTopic" layoutX="4.0" layoutY="47.0" onMouseClicked="#chooseTopicByClick" prefHeight="252.0" prefWidth="240.0" styleClass="table-view" stylesheets="@../style.css" />
+            <ListView fx:id="listResults" layoutX="284.0" layoutY="122.0" onMouseClicked="#chooseTargetByClick" prefHeight="177.0" prefWidth="442.0" styleClass="table-view" stylesheets="@../style.css" />
+            <TextField fx:id="quantityOfResult" layoutX="262.0" layoutY="81.0" prefHeight="43.0" prefWidth="479.0" promptText="Nhập từ bạn muốn tìm kiếm" styleClass="yy" text="Kết quả liên quan" />
+            <TextField layoutX="-2.0" layoutY="16.0" prefHeight="43.0" prefWidth="128.0" promptText="Nhập từ bạn muốn tìm kiếm" styleClass="yy" text="Chủ đề từ vựng" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

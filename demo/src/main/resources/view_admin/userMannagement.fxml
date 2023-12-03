@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="container" prefHeight="580.0" prefWidth="730.0" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.admin_user_controller">
+   <children>
+      <TableView fx:id="tableUser" layoutX="6.0" layoutY="4.0" prefHeight="276.0" prefWidth="560.0" />
+      <TableView fx:id="tableStudy" layoutX="6.0" layoutY="288.0" prefHeight="276.0" prefWidth="203.0" />
+      <TableView fx:id="tableStudyDetail" layoutX="219.0" layoutY="288.0" prefHeight="276.0" prefWidth="509.0" />
+      <TableView fx:id="tableAdmin" layoutX="576.0" layoutY="4.0" prefHeight="276.0" prefWidth="152.0" />
+   </children>
+</AnchorPane>

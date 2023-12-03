@@ -1,0 +1,36 @@
+|cat  	
+con mèo
+|dog	
+con chó
+|bird	
+con chim
+|ant	
+con kiến
+|mouse	
+con chuột
+|lion	
+con sư tử
+|rabbit	
+con thỏ
+|zebra	
+con ngựa vằn
+|pig	
+con lợn
+|chicken	
+con gà
+|duck	
+con vịt
+|bee		
+con ong
+|buffalo	
+con trâu
+|cow		
+con bò
+|whale	
+con cá voi
+|fox	
+con cáo
+|horse	
+con ngựa
+|monkey	
+con khỉ

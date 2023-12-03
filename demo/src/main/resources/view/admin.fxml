@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="600.0" prefWidth="850.0" styleClass="anchor-pane" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.admin_interface">
+    <children>
+        <Button fx:id="dict" layoutY="97.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="112.0" text="Dữ liệu từ" />
+        <Button fx:id="user" layoutY="190.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="112.0" text="User" />
+      <Button fx:id="voca" layoutY="142.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="112.0" text="Từ vựng" />
+      <AnchorPane fx:id="container" layoutX="121.0" layoutY="33.0" prefHeight="580.0" prefWidth="730.0" styleClass="container" />
+      <Button fx:id="historyUpdate" layoutX="-1.0" layoutY="239.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="112.0" text="HisUpdate" />
+      <Button fx:id="quit" layoutY="552.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="81.0" text="Quit" />
+      <Button fx:id="logout" layoutY="510.0" mnemonicParsing="false" text="LogOut" />
+    </children>
+</AnchorPane>

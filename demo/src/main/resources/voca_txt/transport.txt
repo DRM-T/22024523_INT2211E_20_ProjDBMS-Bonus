@@ -1,0 +1,36 @@
+|airplane
+máy bay
+|ambulance
+xe cứu thương
+|bicycle
+xe đạp
+|bus
+xe buýt
+|car
+xe ô tô
+|ship
+thuyền
+|truck
+xe tải
+|van
+xe thùng
+|train
+tàu hỏa
+|fire truck
+xe cứu hỏa
+|rocket
+tên lửa
+|scooter
+xe tay ga
+|motocycle
+xe máy
+|helicopter
+trực thăng
+|subway
+xe điện ngầm
+|submarine
+tàu ngầm
+|tractor
+máy kéo
+|taxi
+xe tắc xi

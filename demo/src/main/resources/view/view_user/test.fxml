@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane fx:id="container" prefHeight="580.0" prefWidth="730.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.user_test_controller">
+   <children>
+      <Label layoutX="477.0" layoutY="540.0" styleClass="score-small" stylesheets="@../../style.css" text="Score:" />
+      <Label fx:id="labelScore" layoutX="563.0" layoutY="531.0" styleClass="score-big" stylesheets="@../../style.css" text="0" />
+      <Pane layoutX="83.0" layoutY="100.0" prefHeight="75.0" prefWidth="600.0">
+         <children>
+            <TextField fx:id="explain1" layoutX="14.0" layoutY="16.0" prefHeight="43.0" prefWidth="197.0" stylesheets="@../../style.css" text="Explain">
+               <styleClass>
+                  <String fx:value="text-field-no-border" />
+                  <String fx:value="yaya" />
+                  <String fx:value="yy" />
+               </styleClass></TextField>
+            <TextField fx:id="target1" layoutX="243.0" layoutY="13.0" prefHeight="50.0" prefWidth="197.0" promptText="?" stylesheets="@../../style.css">
+               <styleClass>
+                  <String fx:value="text-field-no-border" />
+                  <String fx:value="yaya" />
+               </styleClass></TextField>
+            <Button fx:id="check1" layoutX="450.0" layoutY="26.0" mnemonicParsing="false" styleClass="langButton" stylesheets="@../../style.css" text="check" />
+            <Button fx:id="done1" layoutX="528.0" layoutY="26.0" mnemonicParsing="false" styleClass="menuButton" stylesheets="@../../style.css" text="Done" />
+         </children>
+      </Pane>
+      <Pane layoutX="83.0" layoutY="190.0" prefHeight="75.0" prefWidth="600.0">
+         <children>
+            <TextField fx:id="explain2" layoutX="14.0" layoutY="16.0" prefHeight="43.0" prefWidth="197.0" promptText="Từ được chọn" stylesheets="@../../style.css" text="Explain">
+               <styleClass>
+                  <String fx:value="text-field-no-border" />
+                  <String fx:value="yaya" />
+                  <String fx:value="yy" />
+               </styleClass></TextField>
+            <TextField fx:id="target2" layoutX="243.0" layoutY="13.0" prefHeight="50.0" prefWidth="197.0" promptText="?" stylesheets="@../../style.css">
+               <styleClass>
+                  <String fx:value="text-field-no-border" />
+                  <String fx:value="yaya" />
+               </styleClass></TextField>
+            <Button fx:id="check2" layoutX="450.0" layoutY="26.0" mnemonicParsing="false" styleClass="langButton" stylesheets="@../../style.css" text="check" />
+            <Button fx:id="done2" layoutX="528.0" layoutY="26.0" mnemonicParsing="false" styleClass="menuButton" stylesheets="@../../style.css" text="Done" />
+         </children>
+      </Pane>
+      <Pane layoutX="83.0" layoutY="280.0" prefHeight="75.0" prefWidth="600.0">
+         <children>
+            <TextField fx:id="explain3" layoutX="14.0" layoutY="16.0" prefHeight="43.0" prefWidth="197.0" promptText="Từ được chọn" stylesheets="@../../style.css" text="Explain">
+               <styleClass>
+                  <String fx:value="text-field-no-border" />
+                  <String fx:value="yaya" />
+                  <String fx:value="yy" />
+               </styleClass></TextField>
+            <TextField fx:id="target3" layoutX="243.0" layoutY="13.0" prefHeight="50.0" prefWidth="197.0" promptText="?" stylesheets="@../../style.css">
+               <styleClass>
+                  <String fx:value="text-field-no-border" />
+                  <String fx:value="yaya" />
+               </styleClass></TextField>
+            <Button fx:id="check3" layoutX="450.0" layoutY="26.0" mnemonicParsing="false" styleClass="langButton" stylesheets="@../../style.css" text="check" />
+            <Button fx:id="done3" layoutX="528.0" layoutY="26.0" mnemonicParsing="false" styleClass="menuButton" stylesheets="@../../style.css" text="Done" />
+         </children>
+      </Pane>
+      <Pane layoutX="83.0" layoutY="370.0" prefHeight="75.0" prefWidth="600.0">
+         <children>
+            <TextField fx:id="explain4" layoutX="14.0" layoutY="16.0" prefHeight="43.0" prefWidth="197.0" promptText="Từ được chọn" stylesheets="@../../style.css" text="Explain">
+               <styleClass>
+                  <String fx:value="text-field-no-border" />
+                  <String fx:value="yaya" />
+                  <String fx:value="yy" />
+               </styleClass></TextField>
+            <TextField fx:id="target4" layoutX="243.0" layoutY="13.0" prefHeight="50.0" prefWidth="197.0" promptText="?" stylesheets="@../../style.css">
+               <styleClass>
+                  <String fx:value="text-field-no-border" />
+                  <String fx:value="yaya" />
+               </styleClass></TextField>
+            <Button fx:id="check4" layoutX="450.0" layoutY="26.0" mnemonicParsing="false" styleClass="langButton" stylesheets="@../../style.css" text="check" />
+            <Button fx:id="done4" layoutX="528.0" layoutY="26.0" mnemonicParsing="false" styleClass="menuButton" stylesheets="@../../style.css" text="Done" />
+         </children>
+      </Pane>
+      <Pane layoutX="83.0" layoutY="460.0" prefHeight="75.0" prefWidth="600.0">
+         <children>
+            <TextField fx:id="explain5" layoutX="14.0" layoutY="16.0" prefHeight="43.0" prefWidth="197.0" promptText="Từ được chọn" stylesheets="@../../style.css" text="Explain">
+               <styleClass>
+                  <String fx:value="text-field-no-border" />
+                  <String fx:value="yaya" />
+                  <String fx:value="yy" />
+               </styleClass></TextField>
+            <TextField fx:id="target5" layoutX="243.0" layoutY="13.0" prefHeight="50.0" prefWidth="197.0" promptText="?" stylesheets="@../../style.css">
+               <styleClass>
+                  <String fx:value="text-field-no-border" />
+                  <String fx:value="yaya" />
+               </styleClass></TextField>
+            <Button fx:id="check5" layoutX="450.0" layoutY="26.0" mnemonicParsing="false" styleClass="langButton" stylesheets="@../../style.css" text="check" />
+            <Button fx:id="done5" layoutX="528.0" layoutY="26.0" mnemonicParsing="false" styleClass="menuButton" stylesheets="@../../style.css" text="Done" />
+         </children>
+      </Pane>
+      <ImageView fx:id="image1" fitHeight="75.0" fitWidth="75.0" layoutX="5.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="image2" fitHeight="75.0" fitWidth="75.0" layoutX="5.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="image3" fitHeight="75.0" fitWidth="75.0" layoutX="5.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="image4" fitHeight="75.0" fitWidth="75.0" layoutX="5.0" layoutY="370.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="image5" fitHeight="75.0" fitWidth="75.0" layoutX="5.0" layoutY="460.0" pickOnBounds="true" preserveRatio="true" />
+      <TextField fx:id="suggest" layoutX="515.0" layoutY="20.0" prefHeight="43.0" prefWidth="197.0" promptText="Từ được chọn" styleClass="yy" stylesheets="@../../style.css" text="Gợi ý" />
+      <Button fx:id="test" layoutX="81.0" layoutY="42.0" mnemonicParsing="false" stylesheets="@../../style.css" text="Test" />
+      <Button fx:id="finish" layoutX="81.0" layoutY="535.0" mnemonicParsing="false" stylesheets="@../../style.css" text="Finish" />
+   </children>
+</AnchorPane>
