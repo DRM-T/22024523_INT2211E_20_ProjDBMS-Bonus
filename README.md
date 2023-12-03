@@ -6,6 +6,7 @@ MSV: 22024523
 LHP: INT2211E_20**
 
 **Sản phẩm:** APP học tiếng Anh-Lingoland
+**Link video demo** https://www.canva.com/design/DAF17XNOJDg/rpa83XninHRdvoj1AD9DkA/watch?utm_content=DAF17XNOJDg&utm_campaign=designshare&utm_medium=link&utm_source=editor
 
 **Công nghệ sử dụng:** Maven, Java, Javafx, Xampp, MySQL, SceneBuilder
 
